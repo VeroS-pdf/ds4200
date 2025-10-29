@@ -1,0 +1,102 @@
+.banner {
+  background-image: url('https://www.thesprucepets.com/thmb/jbe7J8zXyqNCZDXL4YOhOnIrtDo=/1080x0/filters:no_upscale():strip_icc()/35425332_204023993588012_1551539163105329152_n-5b4535eb46e0fb00543bde41-5b4f752d46e0fb0037668fdf.jpg'); /* Replace with your image's path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 150px;
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+.outer-box {
+  width: 400px;
+  height: 700px;
+  background: #f2f2f7;
+  margin: 40px auto;
+  border-radius: 35px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  border: 8px solid #000;
+}
+
+.bubble-left {
+  display: inline-block;
+  padding: 6px 6px;
+  background: lightgray;
+    color: black;
+  border-radius: 20px;
+    max-width: 60%;
+    margin-right: auto;
+  position: relative;
+    margin-bottom: 15px;
+}
+
+.bubble-left::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray transparent transparent transparent;
+}
+
+.bubble-right {
+  display: block;
+  padding: 6px 6px;
+  background: #7AB8FD;
+    color: black;
+  border-radius: 20px;
+    max-width: 60%;
+  margin-left: auto;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.bubble-right::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: 15px; /* position tail horizontally */
+  border-width: 10px;
+  border-style: solid;
+  border-color: #7AB8FD transparent transparent transparent;
+}
+
+img {
+  width: 350px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.nike {
+  text-align: center;
+  font-size: 40px;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  color: black;
+  border: 3px solid black;
+  background-color: #f2f2f7;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
