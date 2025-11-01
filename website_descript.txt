@@ -1,0 +1,11 @@
+Hyperlink: https://veros-pdf.github.io/ds4200/
+
+Styling and Customization done:
+Used nested borders to create the illusion of a phone screen with text messages on it
+Used text shadow and images to create a banner with text overlaid on top
+Included a centered image of my cat with a header underneath with her name
+Filled in the background with an image pulled off the internet
+Included a button to the second page
+Created a timeline using layered borders to create containers
+Included two side by side images of my sister’s cats at the bottom, and cropped them into circles
+Included buttons with links to my LinkedIn and Email
